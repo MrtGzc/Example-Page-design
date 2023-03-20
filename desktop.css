@@ -1,0 +1,231 @@
+.dark-color{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+.light-color{
+    color: hsl(201, 11%, 66%);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+                    /* Header */
+header{
+    width: 100%;
+    text-align: center;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+    margin-bottom: 6rem;
+}
+
+header svg{
+    margin-bottom: .7rem;
+}
+
+.header-texts{
+    width: 50%;
+    margin: 0 auto; 
+}
+
+.header-texts h1{
+    margin: 1rem;
+}
+
+.header-buttons{
+    justify-content: center;
+    display: flex;
+}
+
+.header-button button{
+    color: white;
+    padding: .8rem 2rem;
+    border-radius: 50px;
+    filter: opacity(70%);
+    margin: 1rem;
+}
+
+.header-button button:hover, .header-button button:focus{
+    color: white;
+}
+
+#forIOS{
+    background-color: hsl(171, 66%, 44%);
+}
+
+#forMac{
+    background-color: hsl(233, 90%, 59%);
+}
+
+                    /* content  */
+
+
+/* content - 1 */
+content{
+    width: 100%;
+}
+
+.content-title{
+    text-align: center;
+    margin: 0 auto 4rem auto;
+    width: 50%;
+    
+}
+
+.content-body{
+    display: flex;
+}
+
+.content-body-left{
+    width: 50%;
+}
+
+.content-body-left img{
+    position: relative;
+    width: 100%;
+    left: -50px;
+}
+
+.content-body-right{
+    text-align: left;
+    width: 50%;
+}
+
+.content-body-right-texts{
+    margin: 3rem 5rem;
+}
+
+.content-body-right div{
+    margin-bottom: 3rem;
+}
+
+/* content - 2 */
+
+.content-2{
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.content-2-title{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+.content-2-img img{
+    margin: 2.5rem auto;
+    width: 60%;
+}
+
+/* Features */
+
+.features-blocks{
+    display: flex;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.features-block{
+    width: 33%;
+    margin: 1rem;
+}
+
+.features-block svg{
+    width: 54px;
+    height: 50px;
+    margin-bottom: .5rem;
+}
+
+/* Companies */
+
+.companies{
+    display: flex;
+    width: 80%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.company{
+    width: 20%;
+    margin: 1rem;
+}
+
+.company img{
+    width: 90%;
+}
+
+/* clipboard */
+
+.clipboard{
+    margin: 2rem auto 6rem auto;
+    text-align: center;
+    width: 100%;
+}
+
+.clipboard-texts{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+.clipboard-buttons button{
+    color: white;
+    padding: .8rem 2rem;
+    border-radius: 50px;
+    filter: opacity(70%);
+    margin: 1rem;
+}
+
+.clipboard-buttons button:hover ,.clipboard-buttons button:focus{
+    color: white;
+}
+
+/* Footer */
+
+.footer{
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 3rem;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer-text a{
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.footer-text a:hover{
+    text-decoration: none;
+    margin: 1rem;
+    color: hsl(171, 66%, 44%);
+}
+
+.social-media{
+    text-align: center;
+    min-width: 15%;
+}
+
+.social-media a{
+    width: 100%;
+    margin: .5rem;
+}
+
+.social-media i:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+.logo,.footer-text,.social-media{
+    margin: .5rem;
+}
